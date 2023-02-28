@@ -4,20 +4,24 @@ body {
     background-color: rgb(245, 245, 243);
 }
 
+/* First container */
 .aboutCont {
     display: flex;
     height: 75vh;
     justify-content: space-evenly;
     align-items: center;
     background-color: rgb(245, 245, 243);
-    
+    margin-right: 5%;
+    margin-left: 5%;
 }
 
 .aboutName {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 40px;
+    font-family: 'Spectral', serif;
+    font-weight:600;
+    font-size: 70px;
 }
 
 #headshot {
@@ -34,6 +38,51 @@ body {
     background-color: rgb(58, 56, 56);
     width: 5px;
     border-radius: 20px 20px;
+    border: none;
     height: 116%;
     transform: rotate(30deg);
+}
+
+/* Second Container */
+.containerTwo {
+    height: 100vh;
+    display: flex;
+    background-color: rgb(121, 62, 39);
+}
+
+.newReleasesContainer {
+    display: flex;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.newContent {
+    display:flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.newBlog {
+    height: 400px;
+    width: 400px;
+    background-color: rgb(207, 193, 193);
+}
+
+.newPodcast {
+    height: 400px;
+    width: 400px;
+    background-color: rgb(207, 193, 193);
+}
+
+.newReleasesTitle {
+    position: absolute;
+    font-family: 'Spectral', serif;
+    font-weight:400;
+    font-size: 50px;
+    padding-top: 2%;
+    padding-left: 2%;
 }

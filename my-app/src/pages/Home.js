@@ -16,7 +16,17 @@ function Home() {
               </div>
             </div>
             <div className='containerTwo'>
-              <div className='newReleasesContainer'>New Releases</div>
+              <div className='newReleasesContainer'>
+                    <h2 className='newReleasesTitle'>New Releases</h2>
+                <div className='newContent'>
+                  <div className='newBlog'>
+                    {/* <h3></h3>
+                    <p></p>
+                    <button></button> */}
+                  </div>
+                  <div className='newPodcast'></div>
+                </div>
+              </div>
             </div>
 
 
