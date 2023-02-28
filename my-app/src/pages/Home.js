@@ -20,11 +20,15 @@ function Home() {
                     <h2 className='newReleasesTitle'>New Releases</h2>
                 <div className='newContent'>
                   <div className='newBlog'>
-                    {/* <h3></h3>
-                    <p></p>
-                    <button></button> */}
+                    <h3>New Blog Title</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae ipsum sapien. Suspendisse efficitur, purus eget tristique pretium, tortor mi semper ante, in venenatis urna ex sit amet nibh. Nunc at ligula diam. Sed venenatis ac nulla eget tincidunt. Integer ullamcorper blandit risus eget lobortis. Fusce fermentum commodo arcu vitae fermentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <a href='https://www.w3schools.com/'>Read More</a>
                   </div>
-                  <div className='newPodcast'></div>
+                  <div className='newPodcast'>
+                    <h3>New Podcast Title</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae ipsum sapien. Suspendisse efficitur, purus eget tristique pretium, tortor mi semper ante, in venenatis urna ex sit amet nibh. Nunc at ligula diam. Sed venenatis ac nulla eget tincidunt. Integer ullamcorper blandit risus eget lobortis. Fusce fermentum commodo arcu vitae fermentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <a href='https://www.w3schools.com/'>Listen Here</a>
+                  </div>
                 </div>
               </div>
             </div>

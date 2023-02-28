@@ -5,12 +5,14 @@ body {
 }
 
 /* First container */
+.containerOne {
+    background: linear-gradient(45deg, rgb(245, 245, 243), rgb(238, 238, 233));
+}
 .aboutCont {
     display: flex;
     height: 75vh;
     justify-content: space-evenly;
     align-items: center;
-    background-color: rgb(245, 245, 243);
     margin-right: 5%;
     margin-left: 5%;
 }
@@ -47,7 +49,8 @@ body {
 .containerTwo {
     height: 100vh;
     display: flex;
-    background-color: rgb(121, 62, 39);
+        background: linear-gradient(45deg, rgb(245, 245, 243), rgb(238, 238, 233));
+
 }
 
 .newReleasesContainer {
@@ -66,18 +69,6 @@ body {
     align-items: center;
 }
 
-.newBlog {
-    height: 400px;
-    width: 400px;
-    background-color: rgb(207, 193, 193);
-}
-
-.newPodcast {
-    height: 400px;
-    width: 400px;
-    background-color: rgb(207, 193, 193);
-}
-
 .newReleasesTitle {
     position: absolute;
     font-family: 'Spectral', serif;
@@ -85,4 +76,65 @@ body {
     font-size: 50px;
     padding-top: 2%;
     padding-left: 2%;
+}
+
+/* blog block */
+.newBlog {
+    height: 400px;
+    width: 400px;
+    background-color: rgb(235, 235, 233);
+    border-style: solid;
+    border-color: rgb(226, 223, 223);
+}
+.newBlog h3 {
+    font-family: 'Spectral', serif;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.newBlog p {
+    font-family: 'Spectral', serif;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 10px;
+    text-align: left;
+}
+
+.newBlog a {
+    float: right;
+    font-style: italic;
+    padding-right: 5%;
+    color: black;
+    font-weight: 800;
+}
+
+/* podcast block */
+.newPodcast {
+    height: 400px;
+    width: 400px;
+    background-color: rgb(235, 235, 233);
+    border-style: solid;
+    border-color: rgb(226, 223, 223);
+}
+
+.newPodcast h3 {
+font-family: 'Spectral', serif;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.newPodcast p {
+    font-family: 'Spectral', serif;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 10px;
+    text-align: left;
+}
+
+.newPodcast a {
+    float: right;
+    font-style: italic;
+    padding-right: 5%;
+    color: black;
+    font-weight: 800;
 }
