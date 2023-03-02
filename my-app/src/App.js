@@ -4,11 +4,13 @@ import Home from './pages/Home';
 import Blog from './pages/Blog';
 import Books from './pages/Books';
 import Podcast from './pages/Podcast';
+import Navbar from './components/Navbar.js';
 
 function App() {
   return (
     <div className="App">
       <Router>
+        <Navbar />
         <Routes>
           <Route path='/home' element={<Home />} />
           <Route path='/blog' element={<Blog />} />
