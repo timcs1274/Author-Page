@@ -1,6 +1,6 @@
 import React from 'react'
 import '../styles/Home.css'
-import headshot from '../assets/images/mark-headshot.webp'
+import headshot from '../assets/images/mark-headshot-remove.webp'
 
 function Home() {
   return (
