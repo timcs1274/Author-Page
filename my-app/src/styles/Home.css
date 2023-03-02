@@ -1,12 +1,12 @@
 
 body {
     margin: 0px;
-    background-color: rgb(245, 245, 243);
+    background-color: rgb(238, 238, 238);
 }
 
 /* First container */
 .containerOne {
-    background: linear-gradient(45deg, rgb(245, 245, 243), rgb(238, 238, 233));
+    background: linear-gradient(45deg, rgb(245, 245, 243), rgb(238, 238, 238));
 }
 .aboutCont {
     display: flex;
@@ -112,9 +112,9 @@ body {
 .newPodcast {
     height: 400px;
     width: 400px;
-    background-color: rgb(235, 235, 233);
+    background-color: rgb(238, 238, 238);
     border-style: solid;
-    border-color: rgb(226, 223, 223);
+    border-color: rgb(238, 238, 238);
 }
 
 .newPodcast h3 {
