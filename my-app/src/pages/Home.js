@@ -18,6 +18,10 @@ function Home() {
           </div>
         </header>
         <main>
+          <div className='titleContainer'>
+            <h1>Mark W Sasse</h1>
+            <img className='titleImg' src={headshot} alt='Author Title'></img>
+          </div>
             <div className='containerOne'>
               <div className='aboutCont'>
                   <img id='headshot' src={headshot} alt='Author'></img>
