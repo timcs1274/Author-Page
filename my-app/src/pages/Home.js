@@ -1,6 +1,8 @@
 import React from 'react'
 import '../styles/Home.css'
 import headshot from '../assets/images/mark-headshot-remove.png'
+import titleBGImg from '../assets/images/background/fabien.jpg'
+import titleBGImg2 from '../assets/images/background/fabienR.jpg'
 
 function Home() {
   return (
@@ -19,6 +21,8 @@ function Home() {
         </header>
         <main>
           <div className='titleContainer'>
+          <img className='titleBGImg' src={titleBGImg} alt='Background Texture'></img>
+          <img className='titleBGImg2' src={titleBGImg2} alt='Background Texture'></img>
             <h1>Mark W Sasse</h1>
             <img className='titleImg' src={headshot} alt='Author Title'></img>
           </div>
