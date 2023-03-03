@@ -5,7 +5,17 @@ import headshot from '../assets/images/mark-headshot-remove.png'
 function Home() {
   return (
     <div>
-        <header className='heading'>
+        <header className='homeNav'>
+          <div className='homeNavContainer'>
+              <div className='homeNavLogo'>MarkWSasse</div>
+              <ul>
+                  <li>Home</li>
+                  <li>Books</li>
+                  <li>Blogs</li> 
+                  <li>Podcasts</li> 
+                  <li>About Mark</li> 
+              </ul>
+          </div>
         </header>
         <main>
             <div className='containerOne'>
