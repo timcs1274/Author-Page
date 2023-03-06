@@ -10,7 +10,7 @@ body {
     background-color: black;
     background: linear-gradient(to left, rgb(9, 11, 15), rgb(31, 12, 12) 25%, rgb(5, 5, 5), rgb(7, 7, 7));
     height: 8vh;
-    color: rgb(139, 205, 247);
+    color: rgb(107, 168, 206);
   }
   
  .homeNavLogo {
@@ -24,7 +24,7 @@ body {
     font-weight: bolder;
     font-family: 'Bebas Neue', serif;
     letter-spacing: 5px;
-    color: rgb(80, 172, 230);
+    color: rgb(107, 168, 206);
 }
 
 ul {
@@ -85,7 +85,7 @@ h1 {
     font-weight: bolder;
     font-family: 'Bebas Neue', serif;
     letter-spacing: 25px;
-    color: rgb(80, 172, 230);
+    color: rgb(107, 168, 206);
     z-index: 1;
     height: 50vh;
 }
