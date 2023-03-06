@@ -5,6 +5,7 @@ import Blog from './pages/Blog';
 import Books from './pages/Books';
 import Podcast from './pages/Podcast';
 import Navbar from './components/Navbar.js';
+import Footer from './components/Footer.js';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path='/books' element={<Books />} />
           <Route path='/podcasts' element={<Podcast />} />
         </Routes>
+        <Footer />
       </Router>
     </div>
   );

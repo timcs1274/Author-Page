@@ -59,8 +59,6 @@ function Home() {
                   <div>form</div>
               </div>  
             </div>
-            <footer className='footing'>
-            </footer>
         </main>
     </div>
   )
