@@ -1,8 +1,11 @@
 import React from 'react'
+import Navbar from '../components/Navbar.js';
 
 function Podcast() {
   return (
-    <div>Podcast</div>
+    <>
+      <Navbar />
+    </>
   )
 }
 
