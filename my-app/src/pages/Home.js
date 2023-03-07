@@ -26,13 +26,13 @@ function Home() {
             <h1>Mark W Sasse</h1>
             <img className='titleImg' src={headshot} alt='Author Title'></img>
           </div>
-            <div className='containerOne'>
+            {/* <div className='containerOne'>
               <div className='aboutCont'>
                   <img id='headshot' src={headshot} alt='Author'></img>
                   <hr className='dividerOne'/>
                   <h2 className='aboutName'>Mark W. Sasse</h2>
               </div>
-            </div>
+            </div> */}
             <div className='containerTwo'>
               <div className='newReleasesContainer'>
                     <h2 className='newReleasesTitle'>New Releases</h2>
