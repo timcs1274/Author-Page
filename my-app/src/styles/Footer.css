@@ -1,0 +1,36 @@
+.footerContainer {
+    background: linear-gradient(to left, rgb(9, 11, 15), rgb(31, 12, 12) 25%, rgb(31, 12, 12), rgb(31, 12, 12));
+    color: rgb(222, 228, 233);
+    display: block; 
+    height: 30vh;
+    font-family: 'Bebas Neue', serif;
+}
+
+.footerTitle{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+hr {
+    width: 30vh;
+}
+
+.footerMedia {
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: center;
+}
+
+.footerWorks p{
+    display: block;
+    font-size: 15px;
+}
+
+.footerAbout p{
+    display: block;
+    font-size: 15px;
+}
