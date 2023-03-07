@@ -3,6 +3,7 @@ import '../styles/Home.css'
 import headshot from '../assets/images/mark-headshot-remove.png'
 import titleBGImg from '../assets/images/background/fabien.jpg'
 import titleBGImg2 from '../assets/images/background/fabienR.jpg'
+import cont2BGImg from '../assets/images/background/serrano.jpg'
 
 function Home() {
   return (
@@ -35,30 +36,31 @@ function Home() {
             </div> */}
             <div className='containerTwo'>
               <div className='newReleasesContainer'>
-                    <h2 className='newReleasesTitle'>New Releases</h2>
-                <div className='newContent'>
+                    <div className='newReleasesTitle'>New Releases</div>
                   <div className='newBlog'>
-                    <h3>New Blog Title</h3>
+                    <img className='cont2BGImg' src={cont2BGImg} alt='Blurred background'></img>
+                    {/* <h3>New Blog Title</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae ipsum sapien. Suspendisse efficitur, purus eget tristique pretium, tortor mi semper ante, in venenatis urna ex sit amet nibh. Nunc at ligula diam. Sed venenatis ac nulla eget tincidunt. Integer ullamcorper blandit risus eget lobortis. Fusce fermentum commodo arcu vitae fermentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <a href='https://www.w3schools.com/'>Read More</a>
+                    <a href='https://www.w3schools.com/'>Read More</a> */}
                   </div>
                   <div className='newPodcast'>
-                    <h3>New Podcast Title</h3>
+                  <img className='cont2BGImg2' src={cont2BGImg} alt='Blurred background'></img>
+
+                    {/* <h3>New Podcast Title</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae ipsum sapien. Suspendisse efficitur, purus eget tristique pretium, tortor mi semper ante, in venenatis urna ex sit amet nibh. Nunc at ligula diam. Sed venenatis ac nulla eget tincidunt. Integer ullamcorper blandit risus eget lobortis. Fusce fermentum commodo arcu vitae fermentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <a href='https://www.w3schools.com/'>Listen Here</a>
+                    <a href='https://www.w3schools.com/'>Listen Here</a> */}
                   </div>
-                </div>
               </div>
             </div>
 
 
 
-            <div className='containerThree'>
+            {/* <div className='containerThree'>
               <div className='newsletter'>
                   <h2>Get all the latest MWS news</h2>
                   <div>form</div>
               </div>  
-            </div>
+            </div> */}
         </main>
     </div>
   )
