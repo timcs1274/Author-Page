@@ -8,11 +8,11 @@ function Navbar() {
         <div className='navContainer'>
             <div className='navLogo'>MarkWSasse</div>
             <ul>
-                <li><Link to= '/'></Link>Home</li>
-                <li><Link to= '/books'></Link>Books</li>
-                <li><Link to= '/blog'></Link>Blogs</li> 
-                <li><Link to= '/podcast'></Link>Podcasts</li> 
-                <li><Link to= '/about-mark'></Link>About Mark</li> 
+                <li><Link to='/'>Home</Link></li>
+                <li><Link to='/books'> Books </Link></li>
+                <li><Link to='/blog'>Blogs</Link></li> 
+                <li><Link to='/podcast'>Podcasts</Link></li> 
+                <li><Link to='/about-mark'>About Mark</Link></li> 
             </ul>
         </div>
     </div>

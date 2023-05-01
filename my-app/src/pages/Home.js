@@ -8,18 +8,6 @@ import cont2BGImg from '../assets/images/background/serrano.jpg'
 function Home() {
   return (
     <div>
-        <header className='homeNav'>
-          <div className='homeNavContainer'>
-              <div className='homeNavLogo'>MarkWSasse</div>
-              <ul>
-                  <li>Home</li>
-                  <li>Books</li>
-                  <li>Blogs</li> 
-                  <li>Podcasts</li> 
-                  <li>About Mark</li> 
-              </ul>
-          </div>
-        </header>
         <main>
           <div className='titleContainer'>
           <img className='titleBGImg' src={titleBGImg} alt='Background Texture'></img>
