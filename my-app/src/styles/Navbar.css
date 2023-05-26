@@ -1,11 +1,11 @@
-.navbar {
+/* .allNavbar {
     background-color: black;
     background: linear-gradient(to left, rgb(5, 34, 78), rgb(3, 42, 43) 25%, rgb(4, 23, 41), black 100%);
     height: 8vh;
     color: rgb(107, 168, 206);
   }
   
- .navLogo {
+ .allNavLogo {
     position: absolute;
     height: 8vh;
     width: 20%;
@@ -19,7 +19,7 @@
     color: rgb(107, 168, 206);
 }
 
-ul {
+.allNavUl {
     display: flex;
     flex-flow: row wrap;
     list-style: none;
@@ -35,4 +35,4 @@ li {
     font-family: 'Spectral', serif;
     font-size: 25px;
     font-weight: bold;
-}
+} */

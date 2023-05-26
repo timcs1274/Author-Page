@@ -5,11 +5,11 @@ import icon from '../assets/images/background/placeholdericon.png'
 
 function Navbar() {
   return (
-    <div className='navbar'>
-        <div className='navContainer'>
-        <img className='navIcon' src={icon} alt='Author Logo'></img>
-            <div className='navLogo'>MarkWSasse</div>
-            <ul>
+    <div className='allNavbar'>
+        <div className='allNavContainer'>
+        <img className='allNavIcon' src={icon} alt='Author Logo'></img>
+            <div className='allNavLogo'>MarkWSasse</div>
+            <ul className='allNavUl'>
                 <li><Link to='/'>Home</Link></li>
                 <li><Link to='/books'> Books </Link></li>
                 <li><Link to='/blog'>Blogs</Link></li> 

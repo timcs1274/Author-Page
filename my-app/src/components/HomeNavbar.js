@@ -7,8 +7,8 @@ import icon from '../assets/images/background/placeholdericon.png'
 function HomeNavbar() {
     return (
         <header className='homeNav'>
-            <img className='navIcon' src={icon} alt='Author Logo'></img>
-            <div className='navContainer'>
+            <img className='homeNavIcon' src={icon} alt='Author Logo'></img>
+            <div className='homeNavContainer'>
                 <div className='homeNavLogo'>MarkWSasse</div>
                 <ul>
                     <li>Home</li>
