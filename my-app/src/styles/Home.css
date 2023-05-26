@@ -1,19 +1,44 @@
 
 body {
     margin: 0px;
-    background-color: rgb(238, 238, 238);
+    background-color: rgb(255, 255, 255);
 }
 
-/* Title Container */
 .titleContainer {
     display: flex;
-    justify-content: center;
+    align-items: center;
     height: 50vh;
-    background-color: rgb(5, 5, 5);
+    background-color: rgb(248, 250, 252);
     overflow: hidden;
-}
+  }
+  
+  .titleImg {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 5%;
+    border-radius: 50%;
+    height: 400px;
+    width: auto;
+  }
+  
+  h1 {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    font-size: 150px;
+    font-weight: bolder;
+    font-family: 'Bebas Neue', serif;
+    letter-spacing: 10px;
+    color: rgb(252, 180, 42);
+    padding-left: 5%;
+    line-height: 0.8;
+    
+  }
 
-.titleBGImg {
+/* .titleBGImg {
     z-index: 0;
     height: 100%;
     filter: brightness(20%);
@@ -25,28 +50,7 @@ body {
     height: 100%;
     filter: brightness(20%);
     transform: scale(1.1);    
-}
-
- .titleImg {
-    z-index: 2;
-    position: absolute;
-    height: 50vh;
-}
-
-h1 {
-    position: absolute;
-    display:inherit;
-    align-items: center;
-    margin: 0px;
-    font-size: 250px;
-    font-weight: bolder;
-    font-family: 'Bebas Neue', serif;
-    letter-spacing: 30px;
-    color: rgb(107, 168, 206);
-    z-index: 1;
-    height: 50vh;
-}
-
+}*/
 
 
 /* First container */
@@ -105,10 +109,10 @@ h1 {
 
 .newReleasesTitle {
     font-family: 'Spectral', serif;
-    background: linear-gradient(to left, rgb(9, 11, 15), rgb(31, 12, 12) 25%, rgb(5, 5, 5), rgb(7, 7, 7));
-    color: aliceblue;
+    background: rgb(235 247 252);
+    color: rgb(90, 90, 116);
     font-size: 60px;
-    width: 100%;
+    font-weight: 600;
     /* padding-top: 2%; */
     margin: 0px;
     display: flex;
@@ -124,7 +128,7 @@ h1 {
 
 .newBlog {
     height: 50vh;
-    background-color: rgb(11 82 96);
+    background-color: rgb(235 247 252);
     color: rgb(255, 255, 255);
 }
 
@@ -132,7 +136,7 @@ h1 {
 /* podcast block */
 .newPodcast {
     height: 50vh;
-    background-color: rgb(255, 180, 199);
+    background-color: rgb(255 255 255);
 }
 
 .cont2BGImg2 {
