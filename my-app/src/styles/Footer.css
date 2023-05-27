@@ -1,10 +1,11 @@
 .footerContainer {
-    background: linear-gradient(to left, rgb(9, 11, 15), rgb(31, 12, 12) 25%, rgb(31, 12, 12), rgb(31, 12, 12));
-    color: rgb(222, 228, 233);
+    background-color: white ;
+    color: rgb(44, 44, 46);
     display: block; 
     height: 35vh;
     font-family: 'Bebas Neue', serif;
     padding-top: 3%;
+    box-shadow: 0px 3px 50px rgb(245, 245, 245) inset;
 }
 
 .footerTitle{

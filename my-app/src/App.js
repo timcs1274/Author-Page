@@ -5,17 +5,14 @@ import Blog from './pages/Blog';
 import Books from './pages/Books';
 import Podcast from './pages/Podcast';
 
-// import Navbar from './components/Navbar.js';
+import Navbar from './components/Navbar.js';
 import Footer from './components/Footer.js';
-import HomeNavbar from './components/HomeNavbar.js'; // import the new HomeNavbar component
 
 function App() {
   return (
     <div className="App">
       <Router>
-        <Routes>
-          <Route path='/' element={<HomeNavbar />} /> 
-        </Routes>
+        <Navbar />
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/blog' element={<Blog />} />

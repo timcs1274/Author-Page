@@ -1,38 +1,56 @@
-/* .allNavbar {
-    background-color: black;
-    background: linear-gradient(to left, rgb(5, 34, 78), rgb(3, 42, 43) 25%, rgb(4, 23, 41), black 100%);
+.navbar {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
     height: 8vh;
     color: rgb(107, 168, 206);
+    width: 100%;
   }
   
- .allNavLogo {
-    position: absolute;
-    height: 8vh;
-    width: 20%;
+  .navIcon {
+    margin-right: 5px;
+  }
+  
+  .navContainer {
+    display: grid;
+    grid-template-columns: auto 1fr;
     align-items: center;
-    display: flex;
-    justify-content: center;
-    font-size: 60px;
+  }
+  
+  .navLogo {
+    font-size: 40px;
     font-weight: bolder;
     font-family: 'Bebas Neue', serif;
     letter-spacing: 5px;
-    color: rgb(107, 168, 206);
-}
-
-.allNavUl {
-    display: flex;
-    flex-flow: row wrap;
+    white-space: nowrap;
+    color: rgb(252, 180, 42);
+  }
+  
+  .navUL {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
     list-style: none;
-    margin: 0; 
-    padding-left: 15%;
-    justify-content: flex-end;
-    align-items: center;
-    height: 8vh;
-}
-
-li {
-    width: 15%;
-    font-family: 'Spectral', serif;
-    font-size: 25px;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  
+  li {
+    font-family: 'Bebas Neue', serif; /* 'Monserat', serif */
+    font-size: 20px;
     font-weight: bold;
-} */
+    color: white;
+    }
+  
+    a {
+      color: rgb(44, 44, 46);
+      text-decoration: none;
+    }
+    
+    a:hover {
+      color: rgb(84, 118, 192);
+      text-decoration: none;
+    }
