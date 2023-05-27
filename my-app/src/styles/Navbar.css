@@ -6,6 +6,9 @@
     height: 8vh;
     color: rgb(107, 168, 206);
     width: 100%;
+    position: fixed;
+    z-index: 999;
+    top: 0;
   }
   
   .navIcon {
