@@ -5,7 +5,7 @@ body {
     padding-top: 8vh;
 }
 
-/* First container */
+/* ------- Title container -------- */
 .titleContainer {
     display: flex;
     align-items: center;
@@ -44,7 +44,88 @@ body {
 
 
 
-/* Second Container */
+/* ------- Novel Carousel -------- */
+
+.carouselContainer {
+    font-family: 'Monserat', serif;
+    background: rgb(163, 187, 152);
+    color: rgb(90, 90, 116);
+}
+
+.carouselContainer h3 {
+    margin: 0px;
+}
+
+
+
+
+.scene {
+    position: relative;
+    width: 210px;
+    height: 140px;
+    margin: 40px auto;
+    perspective: 1000px;
+  }
+  
+  .carousel {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transform: translateZ(-288px);
+    transform-style: preserve-3d;
+    transition: transform 1s;
+  }
+  
+  .carousel__cell {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 10px;
+    top: 10px;
+    border: none;
+    line-height: 116px;
+    font-size: 80px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 15%;
+  }
+
+  .carousel__cell img {
+    width: auto;
+    height: auto;
+    max-width: 200px;
+    max-height: 150px;
+  }
+  
+  .carousel__cell:nth-child(9n+1) { background: rgb(251,235,203);
+    background: radial-gradient(circle, rgba(251,235,203,1) 0%, rgba(251,194,82,1) 100%); }
+  .carousel__cell:nth-child(9n+2) { background-color:rgb(235 247 252); }
+  .carousel__cell:nth-child(9n+3) { background-color:rgb(235 247 252); }
+  .carousel__cell:nth-child(9n+4) { background-color:rgb(235 247 252); }
+  .carousel__cell:nth-child(9n+5) { background-color:rgb(235 247 252); }
+  .carousel__cell:nth-child(9n+6) { background-color:rgb(235 247 252); }
+  .carousel__cell:nth-child(9n+7) { background-color:rgb(235 247 252); }
+  .carousel__cell:nth-child(9n+8) { background-color:rgb(235 247 252); }
+  .carousel__cell:nth-child(9n+0) { background-color:rgb(235 247 252); }
+  
+  .carousel__cell:nth-child(1) { transform: rotateY(0deg) translateZ(400px); }
+  .carousel__cell:nth-child(2) { transform: rotateY(30deg) translateZ(400px); }
+  .carousel__cell:nth-child(3) { transform: rotateY(60deg) translateZ(400px); }
+  .carousel__cell:nth-child(4) { transform: rotateY(90deg) translateZ(400px); }
+  .carousel__cell:nth-child(5) { transform: rotateY(120deg) translateZ(400px); }
+  .carousel__cell:nth-child(6) { transform: rotateY(150deg) translateZ(400px); }
+  .carousel__cell:nth-child(7) { transform: rotateY(180deg) translateZ(400px); }
+  .carousel__cell:nth-child(8) { transform: rotateY(210deg) translateZ(400px); }
+  .carousel__cell:nth-child(9) { transform: rotateY(240deg) translateZ(400px); }
+  .carousel__cell:nth-child(10) { transform: rotateY(270deg) translateZ(400px); }
+  .carousel__cell:nth-child(11) { transform: rotateY(300deg) translateZ(400px); }
+  .carousel__cell:nth-child(12) { transform: rotateY(330deg) translateZ(400px); }
+
+
+
+
+/* --------- Second Container --------- */
 .newReleasesContainer {
     display: block;
     width: 100%;
@@ -62,7 +143,10 @@ body {
     justify-content: center;
 }
 
-/* blog block */
+
+
+
+/* ----------- blog block ----------- */
 .cont2BGImg {
     width: 100%;
     height: 100%;
@@ -79,7 +163,8 @@ body {
 }
 
 
-/* podcast block */
+
+/* --------- podcast block ----------- */
 .newPodcast {
     height: 50vh;
     background-color: rgb(255 255 255);
