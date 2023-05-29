@@ -1,7 +1,7 @@
 import React from 'react'
 import '../styles/Navbar.css'
 import { Link } from 'react-router-dom';
-import icon from '../assets/images/background/placeholdericon.png'
+import icon from '../assets/images/markpen-nobg.png'
 
 function Navbar() {
   return (
