@@ -6,6 +6,7 @@ import NavigateNextIcon from '@mui/icons-material/NavigateNext';
 
 import markPen from '../assets/images/markpen.jpg';
 import { initializeCarousel } from '../helpers/Carousel.js';
+import { initializeCarousel2 } from '../helpers/Carousel.js';
 import africanConnection from '../assets/images/books/AfricanConnection.jpg';
 import banyan from '../assets/images/books/Banyan.jpg';
 import beautyRising from '../assets/images/books/BeautyRising.jpg';
@@ -19,9 +20,22 @@ import partingInTheSky from '../assets/images/books/PartingintheSky.jpg';
 import recluse from '../assets/images/books/Recluse.jpg';
 import whichHalf from '../assets/images/books/whichhalf.jpg';
 
+
+import dearHigh from '../assets/images/plays/Dear High School2.jpg';
+import theatricalDuets from '../assets/images/plays/TheatricalDuets COVER.jpg';
+import coverFront from '../assets/images/plays/coverFrontonly.jpg';
+import talesOfRedemption from '../assets/images/plays/tales of redempion front cover.jpg';
+import talesOfWonder from '../assets/images/plays/tales of wonder front only.jpg';
+
+
+
 function Home() {
   useEffect(() => {
     initializeCarousel();
+  }, []);
+
+  useEffect(() => {
+    initializeCarousel2();
   }, []);
 
   return (
@@ -58,6 +72,35 @@ function Home() {
         </div>
 
         </div>
+
+
+
+
+
+
+        <div className='carouselContainer2'>
+          <h3>Plays</h3>
+
+        <div className="scene2">
+          <div className="carousel2">
+            <div className="carousel__cell2"><img src={dearHigh} alt="Book: african Connection" /></div>
+            <div className="carousel__cell2"><img src={theatricalDuets} alt="Book: Reach of the Banyan Tree" /></div>
+            <div className="carousel__cell2"><img src={coverFront} alt="Book: african Connection" /></div>
+            <div className="carousel__cell2"><img src={talesOfRedemption} alt="Book: african Connection" /></div>
+            <div className="carousel__cell2"><img src={talesOfWonder} alt="Book: african Connection" /></div>
+          </div>
+        </div>
+        <div className='carouselBtns2'>
+          <button className="previous-button2"><NavigateBeforeIcon fontSize="large" /></button>
+          <button className="next-button2"><NavigateNextIcon fontSize="large" /></button>
+        </div>
+
+        </div>
+
+
+
+
+
         {/* ------------------------------------------------------- */}
                 
 
