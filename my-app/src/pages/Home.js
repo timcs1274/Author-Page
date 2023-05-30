@@ -53,8 +53,8 @@ function Home() {
           </div>
         </div>
         <div className='carouselBtns'>
-          <button className="previous-button">{NavigateBeforeIcon}</button>
-          <button className="next-button">{NavigateNextIcon}</button>
+          <button className="previous-button"><NavigateBeforeIcon fontSize="large" /></button>
+          <button className="next-button"><NavigateNextIcon fontSize="large" /></button>
         </div>
 
         </div>

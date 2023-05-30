@@ -56,7 +56,7 @@ body {
 .carouselContainer {
     font-family: 'Monserat', serif;
     background: rgb(163, 187, 152);
-    color: rgb(90, 90, 116);
+    color: rgb(240, 236, 207);
     height: 45vh;
     display: flex;
     flex-direction: column;
@@ -67,32 +67,31 @@ body {
 .carouselContainer h3 {
   font-size: 50px;
   margin: 0px;
-  padding-left: 2%;
+  padding-right: 2%;
 }
 
 .carouselBtns {
-  margin-top: auto;  
+  margin-top: auto;
+  padding-bottom: 1%;  
+  padding-right: 2%;
 }
 
 .previous-button{
-  background-color: rgb(255, 204, 109);
-  border-radius: 100px;
-  box-shadow: rgba(187, 177, 44, 0.2) 0 -25px 18px -14px inset,rgba(255, 251, 0, 0.15) 0 1px 2px,rgba(255, 208, 0, 0.15) 0 2px 4px,rgba(187, 173, 44, 0.15) 0 4px 8px,rgba(187, 44, 44, 0.15) 0 8px 16px,rgba(187, 161, 44, 0.15) 0 16px 32px;
+  background-color: rgb(240, 236, 207);
+  /* border-radius: 100px; */
+  border-top-left-radius: 25%;
+  border-bottom-left-radius: 25%;
+  box-shadow: rgba(184, 179, 120, 0.2) 0 -25px 18px -14px inset,rgba(233, 231, 142, 0.15) 0 1px 2px,rgba(240, 213, 92, 0.15) 0 2px 4px,rgba(153, 146, 80, 0.15) 0 4px 8px,rgba(190, 161, 99, 0.15) 0 8px 16px,rgba(189, 172, 96, 0.15) 0 16px 32px;
   color:rgb(74, 75, 88);
   cursor: pointer;
   display: inline-block;
-  padding: 7px 15px;
   text-align: center;
   text-decoration: none;
   transition: all 250ms;
   border: 0;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, 'Monserat', serif;
-  font-size: 16px;
-  font-weight: 600;
   user-select: none;
-  -webkit-user-select: none;
   touch-action: manipulation;
-  width: 120px;
+  width: 75px;
 
 } .previous-button:hover {
   box-shadow: rgba(187, 149, 44, 0.35) 0 -25px 18px -14px inset,rgba(187, 120, 44, 0.25) 0 1px 2px,rgba(187, 149, 44, 0.25) 0 2px 4px,rgba(187, 177, 44, 0.25) 0 4px 8px,rgba(187, 177, 44, 0.25) 0 8px 16px,rgba(187, 165, 44, 0.25) 0 16px 32px;
@@ -100,29 +99,25 @@ body {
 }
 
 .next-button{
-  background-color: rgb(255, 204, 109);
-  border-radius: 100px;
-  box-shadow: rgba(187, 177, 44, 0.2) 0 -25px 18px -14px inset,rgba(255, 251, 0, 0.15) 0 1px 2px,rgba(255, 208, 0, 0.15) 0 2px 4px,rgba(187, 173, 44, 0.15) 0 4px 8px,rgba(187, 44, 44, 0.15) 0 8px 16px,rgba(187, 161, 44, 0.15) 0 16px 32px;
+  background-color: rgb(240, 236, 207);
+  /* border-radius: 100px; */
+  border-top-right-radius: 25%;
+  border-bottom-right-radius: 25%;
+  box-shadow: rgba(184, 179, 120, 0.2) 0 -25px 18px -14px inset,rgba(233, 231, 142, 0.15) 0 1px 2px,rgba(240, 213, 92, 0.15) 0 2px 4px,rgba(153, 146, 80, 0.15) 0 4px 8px,rgba(190, 161, 99, 0.15) 0 8px 16px,rgba(189, 172, 96, 0.15) 0 16px 32px;
   color:rgb(74, 75, 88);
   cursor: pointer;
   display: inline-block;
-  padding: 7px 15px;
   text-align: center;
   text-decoration: none;
   transition: all 250ms;
   border: 0;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, 'Monserat', serif;
-  font-size: 16px;
-  font-weight: 600;
   user-select: none;
-  -webkit-user-select: none;
   touch-action: manipulation;
-  width: 120px;
+  width: 75px;
 } .next-button:hover {
   box-shadow: rgba(187, 149, 44, 0.35) 0 -25px 18px -14px inset,rgba(187, 120, 44, 0.25) 0 1px 2px,rgba(187, 149, 44, 0.25) 0 2px 4px,rgba(187, 177, 44, 0.25) 0 4px 8px,rgba(187, 177, 44, 0.25) 0 8px 16px,rgba(187, 165, 44, 0.25) 0 16px 32px;
   transform: scale(1.05);
 }
-
 
 .scene {
     position: relative;
