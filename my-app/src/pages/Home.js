@@ -1,5 +1,9 @@
 import React, { useEffect } from 'react';
 import '../styles/Home.css';
+
+import NavigateBeforeIcon from '@mui/icons-material/NavigateBefore';
+import NavigateNextIcon from '@mui/icons-material/NavigateNext';
+
 import markPen from '../assets/images/markpen.jpg';
 import { initializeCarousel } from '../helpers/Carousel.js';
 import africanConnection from '../assets/images/books/AfricanConnection.jpg';
@@ -48,10 +52,10 @@ function Home() {
             <div className="carousel__cell"><img src={whichHalf} alt="Book: african Connection" /></div>
           </div>
         </div>
-        <p style={{ textAlign: 'center' }}>
-          <button className="previous-button">Previous</button>
-          <button className="next-button">Next</button>
-        </p>
+        <div className='carouselBtns'>
+          <button className="previous-button">{NavigateBeforeIcon}</button>
+          <button className="next-button">{NavigateNextIcon}</button>
+        </div>
 
         </div>
         {/* ------------------------------------------------------- */}

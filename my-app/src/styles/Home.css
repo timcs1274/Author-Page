@@ -1,4 +1,11 @@
 
+
+:root {
+  --gradientyellow:rgb(251,194,82,1);
+  --gradientlight:rgb(203, 210, 251);
+}
+
+
 body {
     margin: 0px;
     background-color: rgb(255, 255, 255);
@@ -50,20 +57,78 @@ body {
     font-family: 'Monserat', serif;
     background: rgb(163, 187, 152);
     color: rgb(90, 90, 116);
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .carouselContainer h3 {
-    margin: 0px;
+  font-size: 50px;
+  margin: 0px;
+  padding-left: 2%;
 }
 
+.carouselBtns {
+  margin-top: auto;  
+}
 
+.previous-button{
+  background-color: rgb(255, 204, 109);
+  border-radius: 100px;
+  box-shadow: rgba(187, 177, 44, 0.2) 0 -25px 18px -14px inset,rgba(255, 251, 0, 0.15) 0 1px 2px,rgba(255, 208, 0, 0.15) 0 2px 4px,rgba(187, 173, 44, 0.15) 0 4px 8px,rgba(187, 44, 44, 0.15) 0 8px 16px,rgba(187, 161, 44, 0.15) 0 16px 32px;
+  color:rgb(74, 75, 88);
+  cursor: pointer;
+  display: inline-block;
+  padding: 7px 15px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, 'Monserat', serif;
+  font-size: 16px;
+  font-weight: 600;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 120px;
+
+} .previous-button:hover {
+  box-shadow: rgba(187, 149, 44, 0.35) 0 -25px 18px -14px inset,rgba(187, 120, 44, 0.25) 0 1px 2px,rgba(187, 149, 44, 0.25) 0 2px 4px,rgba(187, 177, 44, 0.25) 0 4px 8px,rgba(187, 177, 44, 0.25) 0 8px 16px,rgba(187, 165, 44, 0.25) 0 16px 32px;
+  transform: scale(1.05);
+}
+
+.next-button{
+  background-color: rgb(255, 204, 109);
+  border-radius: 100px;
+  box-shadow: rgba(187, 177, 44, 0.2) 0 -25px 18px -14px inset,rgba(255, 251, 0, 0.15) 0 1px 2px,rgba(255, 208, 0, 0.15) 0 2px 4px,rgba(187, 173, 44, 0.15) 0 4px 8px,rgba(187, 44, 44, 0.15) 0 8px 16px,rgba(187, 161, 44, 0.15) 0 16px 32px;
+  color:rgb(74, 75, 88);
+  cursor: pointer;
+  display: inline-block;
+  padding: 7px 15px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, 'Monserat', serif;
+  font-size: 16px;
+  font-weight: 600;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 120px;
+} .next-button:hover {
+  box-shadow: rgba(187, 149, 44, 0.35) 0 -25px 18px -14px inset,rgba(187, 120, 44, 0.25) 0 1px 2px,rgba(187, 149, 44, 0.25) 0 2px 4px,rgba(187, 177, 44, 0.25) 0 4px 8px,rgba(187, 177, 44, 0.25) 0 8px 16px,rgba(187, 165, 44, 0.25) 0 16px 32px;
+  transform: scale(1.05);
+}
 
 
 .scene {
     position: relative;
     width: 210px;
     height: 140px;
-    margin: 40px auto;
+    margin: 30px auto;
     perspective: 1000px;
   }
   
@@ -94,33 +159,33 @@ body {
   .carousel__cell img {
     width: auto;
     height: auto;
-    max-width: 200px;
-    max-height: 150px;
+    max-width: 250px;
+    max-height: 200px;
   }
   
-  .carousel__cell:nth-child(9n+1) { background: rgb(251,235,203);
-    background: radial-gradient(circle, rgba(251,235,203,1) 0%, rgba(251,194,82,1) 100%); }
-  .carousel__cell:nth-child(9n+2) { background-color:rgb(235 247 252); }
-  .carousel__cell:nth-child(9n+3) { background-color:rgb(235 247 252); }
-  .carousel__cell:nth-child(9n+4) { background-color:rgb(235 247 252); }
-  .carousel__cell:nth-child(9n+5) { background-color:rgb(235 247 252); }
-  .carousel__cell:nth-child(9n+6) { background-color:rgb(235 247 252); }
-  .carousel__cell:nth-child(9n+7) { background-color:rgb(235 247 252); }
-  .carousel__cell:nth-child(9n+8) { background-color:rgb(235 247 252); }
-  .carousel__cell:nth-child(9n+0) { background-color:rgb(235 247 252); }
+
+  .carousel__cell:nth-child(9n+1) { background:none; }
+  .carousel__cell:nth-child(9n+2) { background:none; }
+  .carousel__cell:nth-child(9n+3) { background:none; }
+  .carousel__cell:nth-child(9n+4) { background:none; }
+  .carousel__cell:nth-child(9n+5) { background:none; }
+  .carousel__cell:nth-child(9n+6) { background:none; }
+  .carousel__cell:nth-child(9n+7) { background:none; }
+  .carousel__cell:nth-child(9n+8) { background:none; }
+  .carousel__cell:nth-child(9n+0) { background:none; }
   
-  .carousel__cell:nth-child(1) { transform: rotateY(0deg) translateZ(400px); }
-  .carousel__cell:nth-child(2) { transform: rotateY(30deg) translateZ(400px); }
-  .carousel__cell:nth-child(3) { transform: rotateY(60deg) translateZ(400px); }
-  .carousel__cell:nth-child(4) { transform: rotateY(90deg) translateZ(400px); }
-  .carousel__cell:nth-child(5) { transform: rotateY(120deg) translateZ(400px); }
-  .carousel__cell:nth-child(6) { transform: rotateY(150deg) translateZ(400px); }
-  .carousel__cell:nth-child(7) { transform: rotateY(180deg) translateZ(400px); }
-  .carousel__cell:nth-child(8) { transform: rotateY(210deg) translateZ(400px); }
-  .carousel__cell:nth-child(9) { transform: rotateY(240deg) translateZ(400px); }
-  .carousel__cell:nth-child(10) { transform: rotateY(270deg) translateZ(400px); }
-  .carousel__cell:nth-child(11) { transform: rotateY(300deg) translateZ(400px); }
-  .carousel__cell:nth-child(12) { transform: rotateY(330deg) translateZ(400px); }
+  .carousel__cell:nth-child(1) { transform: rotateY(0deg) translateZ(500px); }
+  .carousel__cell:nth-child(2) { transform: rotateY(30deg) translateZ(500px); }
+  .carousel__cell:nth-child(3) { transform: rotateY(60deg) translateZ(500px); }
+  .carousel__cell:nth-child(4) { transform: rotateY(90deg) translateZ(500px); }
+  .carousel__cell:nth-child(5) { transform: rotateY(120deg) translateZ(500px); }
+  .carousel__cell:nth-child(6) { transform: rotateY(150deg) translateZ(500px); }
+  .carousel__cell:nth-child(7) { transform: rotateY(180deg) translateZ(500px); }
+  .carousel__cell:nth-child(8) { transform: rotateY(210deg) translateZ(500px); }
+  .carousel__cell:nth-child(9) { transform: rotateY(240deg) translateZ(500px); }
+  .carousel__cell:nth-child(10) { transform: rotateY(270deg) translateZ(500px); }
+  .carousel__cell:nth-child(11) { transform: rotateY(300deg) translateZ(500px); }
+  .carousel__cell:nth-child(12) { transform: rotateY(330deg) translateZ(500px); }
 
 
 
