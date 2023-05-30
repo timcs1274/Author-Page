@@ -55,8 +55,8 @@ body {
 
 .carouselContainer {
     font-family: 'Monserat', serif;
-    background: rgb(163, 187, 152);
-    color: rgb(240, 236, 207);
+    background: rgb(241, 241, 233);
+    color: rgb(74, 75, 88);
     height: 45vh;
     display: flex;
     flex-direction: column;
@@ -77,11 +77,10 @@ body {
 }
 
 .previous-button{
-  background-color: rgb(240, 236, 207);
+  background-color: rgb(171, 187, 152);
   /* border-radius: 100px; */
   border-top-left-radius: 25%;
   border-bottom-left-radius: 25%;
-  box-shadow: rgba(184, 179, 120, 0.2) 0 -25px 18px -14px inset,rgba(233, 231, 142, 0.15) 0 1px 2px,rgba(240, 213, 92, 0.15) 0 2px 4px,rgba(153, 146, 80, 0.15) 0 4px 8px,rgba(190, 161, 99, 0.15) 0 8px 16px,rgba(189, 172, 96, 0.15) 0 16px 32px;
   color:rgb(74, 75, 88);
   cursor: pointer;
   display: inline-block;
@@ -94,16 +93,15 @@ body {
   width: 75px;
 
 } .previous-button:hover {
-  box-shadow: rgba(187, 149, 44, 0.35) 0 -25px 18px -14px inset,rgba(187, 120, 44, 0.25) 0 1px 2px,rgba(187, 149, 44, 0.25) 0 2px 4px,rgba(187, 177, 44, 0.25) 0 4px 8px,rgba(187, 177, 44, 0.25) 0 8px 16px,rgba(187, 165, 44, 0.25) 0 16px 32px;
+  box-shadow: rgba(162, 184, 120, 0.2) 0 -25px 18px -14px inset,rgba(198, 233, 142, 0.15) 0 1px 2px,rgba(176, 240, 92, 0.15) 0 2px 4px,rgba(109, 153, 80, 0.15) 0 4px 8px,rgba(143, 190, 99, 0.15) 0 8px 16px,rgba(146, 189, 96, 0.15) 0 16px 32px;
   transform: scale(1.05);
 }
 
 .next-button{
-  background-color: rgb(240, 236, 207);
+  background-color: rgb(171, 187, 152);
   /* border-radius: 100px; */
   border-top-right-radius: 25%;
   border-bottom-right-radius: 25%;
-  box-shadow: rgba(184, 179, 120, 0.2) 0 -25px 18px -14px inset,rgba(233, 231, 142, 0.15) 0 1px 2px,rgba(240, 213, 92, 0.15) 0 2px 4px,rgba(153, 146, 80, 0.15) 0 4px 8px,rgba(190, 161, 99, 0.15) 0 8px 16px,rgba(189, 172, 96, 0.15) 0 16px 32px;
   color:rgb(74, 75, 88);
   cursor: pointer;
   display: inline-block;
@@ -115,7 +113,7 @@ body {
   touch-action: manipulation;
   width: 75px;
 } .next-button:hover {
-  box-shadow: rgba(187, 149, 44, 0.35) 0 -25px 18px -14px inset,rgba(187, 120, 44, 0.25) 0 1px 2px,rgba(187, 149, 44, 0.25) 0 2px 4px,rgba(187, 177, 44, 0.25) 0 4px 8px,rgba(187, 177, 44, 0.25) 0 8px 16px,rgba(187, 165, 44, 0.25) 0 16px 32px;
+  box-shadow: rgba(162, 184, 120, 0.2) 0 -25px 18px -14px inset,rgba(198, 233, 142, 0.15) 0 1px 2px,rgba(176, 240, 92, 0.15) 0 2px 4px,rgba(109, 153, 80, 0.15) 0 4px 8px,rgba(143, 190, 99, 0.15) 0 8px 16px,rgba(146, 189, 96, 0.15) 0 16px 32px;
   transform: scale(1.05);
 }
 
@@ -123,7 +121,7 @@ body {
     position: relative;
     width: 210px;
     height: 140px;
-    margin: 30px auto;
+    margin: 30px;
     perspective: 1000px;
   }
   
@@ -195,8 +193,8 @@ body {
 
 .carouselContainer2 {
   font-family: 'Monserat', serif;
-  background: rgb(163, 187, 152);
-  color: rgb(240, 236, 207);
+  background: rgb(241, 241, 233);
+  color: rgb(74, 75, 88);
   height: 45vh;
   display: flex;
   flex-direction: column;
@@ -217,7 +215,7 @@ padding-right: 2%;
 }
 
 .previous-button2{
-background-color: rgb(240, 236, 207);
+background-color: rgb(171, 187, 152);
 /* border-radius: 100px; */
 border-top-left-radius: 25%;
 border-bottom-left-radius: 25%;
@@ -239,7 +237,7 @@ transform: scale(1.05);
 }
 
 .next-button2 {
-background-color: rgb(240, 236, 207);
+background-color: rgb(171, 187, 152);
 /* border-radius: 100px; */
 border-top-right-radius: 25%;
 border-bottom-right-radius: 25%;
@@ -263,7 +261,7 @@ transform: scale(1.05);
   position: relative;
   width: 210px;
   height: 140px;
-  margin: 30px auto;
+  margin: 30px;
   perspective: 1000px;
 }
 
@@ -330,8 +328,8 @@ transform: scale(1.05);
 
 .newReleasesTitle {
     font-family: 'Monserat', serif;
-    background: rgb(235 247 252);
-    color: rgb(90, 90, 116);
+    background-color: rgb(171, 187, 152);
+    color: rgb(74, 75, 88);
     font-size: 60px;
     font-weight: 600;
     /* padding-top: 2%; */
@@ -340,10 +338,6 @@ transform: scale(1.05);
     justify-content: center;
 }
 
-
-
-
-/* ----------- blog block ----------- */
 .cont2BGImg {
     width: 100%;
     height: 100%;
@@ -352,7 +346,7 @@ transform: scale(1.05);
 
 .newBlog {
     height: 50vh;
-    background-color: rgb(235 247 252);
+    background-color: rgb(171, 187, 152);
     color: white;
 }
 .newBlog h3{

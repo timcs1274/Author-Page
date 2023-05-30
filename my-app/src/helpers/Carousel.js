@@ -98,5 +98,7 @@ export function initializeCarousel() {
         }
       
     
+
+        
       rotateCarousel2();
     }}
