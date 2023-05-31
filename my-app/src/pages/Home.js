@@ -38,6 +38,46 @@ function Home() {
     initializeCarousel2();
   }, []);
 
+
+  // Mailer pop-up
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.innerHTML = `
+      (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
+      .push(arguments);},l=d.createElement(e),l.async=1,l.src=u,
+      n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})
+      (window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
+      ml('account', '347858');
+    `;
+    document.head.appendChild(script);
+  
+    return () => {
+      document.head.removeChild(script);
+    };
+  }, []);
+
+  // mailer embedded
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.innerHTML = `
+      (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
+      .push(arguments);},l=d.createElement(e),l.async=1,l.src=u,
+      n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})
+      (window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
+      ml('account', '347858');
+    `;
+    document.head.appendChild(script);
+
+    return () => {
+      document.head.removeChild(script);
+    };
+  }, []);
+
+  
+
+
+
+
   return (
     <div>
       <main>
@@ -108,26 +148,32 @@ function Home() {
           <div className='newReleasesContainer'>
             <div className='newReleasesTitle'>New Releases</div>
 
+          
             <div className='newBlog'>
               <h3>New Blog Title</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae ipsum sapien. Suspendisse efficitur, purus eget tristique pretium, tortor mi semper ante, in venenatis urna ex sit amet nibh. Nunc at ligula diam. Sed venenatis ac nulla eget tincidunt. Integer ullamcorper blandit risus eget lobortis. Fusce fermentum commodo arcu vitae fermentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
               <a href='https://www.w3schools.com/'>Read More</a>
             </div>
+          
+          {/* Embedded Mailer email-subscriber */}
+          <div className="ml-embedded" data-form="zpOelC"></div>
 
-            <div className='newPodcast'>
+            {/* <div className='newPodcast'>
               <h3>New Podcast Title</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae ipsum sapien. Suspendisse efficitur, purus eget tristique pretium, tortor mi semper ante, in venenatis urna ex sit amet nibh. Nunc at ligula diam. Sed venenatis ac nulla eget tincidunt. Integer ullamcorper blandit risus eget lobortis. Fusce fermentum commodo arcu vitae fermentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
               <a href='https://www.w3schools.com/'>Listen Here</a>
-            </div>
+            </div> */}
           </div>
         </div>
 
         {/* <div className='containerThree'>
           <div className='newsletter'>
-            <h2>Get all the latest MWS news</h2>
-            <div>form</div>
+          <h2>Get all the latest MWS news</h2>
+          <div>form</div>
           </div>  
         </div> */}
+        
+
       </main>
     </div>
   );
