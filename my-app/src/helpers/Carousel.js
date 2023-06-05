@@ -1,7 +1,7 @@
 export function initializeCarousel() {
   var carousel = document.querySelector('.carousel');
   var cells = carousel.querySelectorAll('.carousel__cell');
-  var cellCount = 12; // cellCount set from cells-range input value
+  var cellCount = 12; 
   var selectedIndex = 0;
   var cellWidth = carousel.offsetWidth;
   var cellHeight = carousel.offsetHeight;
@@ -54,7 +54,7 @@ export function initializeCarousel() {
   export function initializeCarousel2() {
     var carousel2 = document.querySelector('.carousel2');
     var cells2 = carousel2.querySelectorAll('.carousel__cell2');
-    var cellCount2 = 5; // cellCount set from cells-range input value
+    var cellCount2 = 5;
     var selectedIndex2 = 0;
     var cellWidth2 = carousel2.offsetWidth;
     var cellHeight2 = carousel2.offsetHeight;
